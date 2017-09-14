@@ -1,0 +1,10 @@
+<div>
+  <a routerLink="/">Ana Sayfa</a>
+  <a routerLink="/sayfa1">Birinci Sayfa</a>
+  <a routerLink="/sayfa2">İkinci Sayfa</a>
+  <a [routerLink]="['/kullanicilar', kullaniciID ,'profile', profileID,{history:true , period:'week'}]">
+    Ödemeler </a>
+
+</div>
+<br />
+<router-outlet></router-outlet>
